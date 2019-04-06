@@ -27,6 +27,9 @@ input {
 input:focus {
     outline: none;
 }
+input::placeholder {
+    opacity: 0.4;
+}
 button {
     margin-left: auto;
     padding: 10px 20px;
